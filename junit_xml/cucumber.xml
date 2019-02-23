@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.278437">
-<testcase classname="Calculator" name="Add numbers" time="0.278437">
-<system-out><![CDATA[Given User is in the application............................................passed
-When user adds two numbers..................................................passed
-Then user should get sum of two numbers a a result..........................passed
-]]></system-out>
-</testcase>
-</testsuite>
