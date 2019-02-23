@@ -1,20 +1,14 @@
 #----------------------------------
-# Sample feature file for calculator
+# Empty Cucumber .feature file
 #----------------------------------
+# Test comment
 Feature: Calculator
-As a user I want to use this application to add, 
-subtract, multiply and divide numbers
-# Simple scenario for adding numbers
-Scenario:
-Given user is on calucaltor application
-When user adds 2 numbers
-Then system displays sum of two numbers
+   As a User, 
+   I want to perform arithmetic operations 
+   In order to get quick results that I can use in other applications
 
-Scenario:
-Given user is on calucaltor application
-When user subtracts number2 from number1
-Then system displays difference of two numbers
-
-    
-
-   
+   Scenario: Add numbers
+      Add numbers
+      Given User is in the application
+      When user adds two numbers
+      Then user should get sum of two numbers a a result
